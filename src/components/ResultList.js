@@ -17,7 +17,7 @@ const ResultList = ({ title, results, navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleStyle}>
-        {title} - {results.length}
+        "Codespace Edit" {title} - {results.length}
       </Text>
       <FlatList
         horizontal
